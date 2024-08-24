@@ -27,7 +27,7 @@ public class IntervalMerger {
     }
 
     public static void main(String[] args) {
-        int[][] intervals = new int[][] {{1, 4}, {0, 2}, {3, 5}};
+        int[][] intervals = new int[][]{{1, 4}, {0, 2}, {3, 5}};
         int[][] result = merge(intervals);
         Arrays.stream(result).forEach(el -> System.out.println(Arrays.toString(el)));
     }
